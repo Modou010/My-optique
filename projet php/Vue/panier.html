@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Vue/style__panier.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>MyOptique</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="[onshow.cible]"><span>My</span>Optique</a>
+        </div>
+        <ul>
+            <li><a href="[onshow.cible]">Accueil</a></li>
+            <li><a href="[onshow.cible]?page=homme">Homme</a></li>
+            <li><a href="[onshow.cible]?page=femme">Femme</a></li>
+            <div class="btn_panier"><a href="[onshow.cible]?page=panier">Panier</a></div>
+        </ul>
+    </div>
+    <h2>Panier</h2>
+    <div class="panier">
+        <!-- Boucle pour générer les éléments du panier -->
+        <div class="contenu_panier">
+            <img src="[image_lunette_ajouter.val;block=div]" alt="image">
+            <p>[nom_lunette_ajouter.val;block=div]</p>
+            <p>[couleur_lunette_ajouter.val;block=div]</p>
+            <p>[prix_lunette_ajouter.val;block=div] €</p>
+            <p>nombre : [quantite_lunette_ajouter.val;block=div] </p>
+            <a href="[onshow.cible]?page=supprimer&id=[id_lunette_ajouter.val;block=div]"> <button>Supprimer</button> </a>
+        </div>
+        <!-- Fin de la boucle -->
+    </div>
+    <!-- Balise <form> à l'intérieur de la boucle pour générer les éléments du panier -->
+    <h2>Total: [onshow.totalPrix] €</h2>
+    <a href="[onshow.cible]?page=confirmation_commande" class="btn_confirmer"> <button>Confirmer</button> </a>
+
+    <!-- Fin de la balise <form> -->
+</body>
+</html>
+

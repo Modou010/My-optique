@@ -1,0 +1,121 @@
+
+body{
+    padding: 20px;
+}
+.header{ 
+   
+ padding: 20px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-weight: 300;
+ padding: 10px 20px;
+ font-family: 'poppins', 'sans-serif';
+ position:sticky;
+ background-color: white;
+top: 0;
+}
+.header .sticky{
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header .logo{
+    display: inline-block;
+
+   font-size: 30px;
+   font-weight: bold;
+   margin-top: -10px;
+}
+.header .logo a{
+    text-decoration: none;
+    color: black;
+}
+.header .logo span{
+    color: orange;
+    font-size: 50px;
+}
+
+.header ul{
+  display: flex;
+    text-align: center;
+}
+.header ul li{
+
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin-right: 30px;
+    align-items: center;
+}
+.header ul a{
+    text-decoration: none;
+    color: black
+ 
+}
+.btn_panier {
+    background-color: orange;
+    padding: 8px 20px;
+    margin-top: -7px;
+    text-transform:uppercase;
+    transition: ease-out;
+
+}
+.header ul li a:hover{
+    color: orange;
+    border-bottom: 2px solid;
+}
+.baniere {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Vue/photo_accueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    text-align: center;
+    display: flex;
+    object-fit: cover;
+}
+
+
+
+
+.baniere .contenu{
+
+text-align: center;
+min-width: 70%;
+max-width: 70%;
+
+}
+.baniere .contenu h2{
+    font-family: 'poppins', 'sans-serif'; ;
+
+    color:  white;
+}
+.baniere .contenu p{ color:  white;    font-family: 'poppins', 'sans-serif'; ;
+}
+.baniere .contenu .boutons .btn1{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    font-family: 'poppins', 'sans-serif'; 
+    margin-left: 10px;
+   
+
+}
+.baniere .contenu .boutons .btn2{
+    text-decoration: none;
+    background-color: rgb(139, 128, 107);
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'poppins', 'sans-serif'; 
+   
+
+}

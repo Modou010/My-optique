@@ -1,0 +1,123 @@
+body{
+    padding: 20px;
+}
+.header{ 
+   
+ padding: 20px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-weight: 300;
+ padding: 10px 20px;
+ font-family: 'poppins', 'sans-serif';
+ position:sticky;
+ background-color: white;
+top: 0;
+}
+.header .sticky{
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header .logo{
+    display: inline-block;
+
+   font-size: 30px;
+   font-weight: bold;
+   margin-top: -10px;
+}
+.header .logo a{
+    text-decoration: none;
+    color: black;
+}
+.header .logo span{
+    color: orange;
+    font-size: 50px;
+}
+
+.header ul{
+  display: flex;
+    text-align: center;
+}
+.header ul li{
+
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin-right: 30px;
+    align-items: center;
+}
+.header ul a{
+    text-decoration: none;
+    color: black
+ 
+}
+.btn_panier {
+    background-color: orange;
+    padding: 8px 20px;
+    margin-top: -7px;
+    text-transform:uppercase;
+    transition: ease-out;
+
+}
+.panier{
+    border: 2px solid orangered;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.contenu_panier{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid orange;
+
+}
+.contenu_panier img {
+    max-width: 100px; 
+    height: auto; 
+}
+
+.btn_confirmer {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn_confirmer button {
+    background-color: orange; 
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn_confirmer button:hover {
+    background-color: orangered; 
+}
+
+
+a button {
+    background-color: #ff4d4d; 
+    color: white;             
+    border: none;            
+    padding: 10px 20px;       
+    border-radius: 5px;       
+    cursor: pointer;          
+    transition: 0.3s;      
+}
+
+a button:hover {
+    background-color: #ff1a1a; 
+}
+
+a button:active {
+    background-color: #cc0000;
+}
